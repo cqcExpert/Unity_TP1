@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class CarControl : MonoBehaviour
 {
-    public float motorTorque = 2000;
-    public float brakeTorque = 2000;
-    public float maxSpeed = 20;
-    public float steeringRange = 30;
-    public float steeringRangeAtMaxSpeed = 10;
-    public float centreOfGravityOffset = -1f;
+    [SerializeField] public float motorTorque;
+    [SerializeField] public float brakeTorque;
+    [SerializeField] public float maxSpeed;
+    [SerializeField] public float steeringRange;
+    [SerializeField] public float steeringRangeAtMaxSpeed;
+    [SerializeField] public float centreOfGravityOffset;
 
     WheelControl[] wheels;
     Rigidbody rigidBody;
