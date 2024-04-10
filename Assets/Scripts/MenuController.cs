@@ -7,12 +7,12 @@ public class MenuController : MonoBehaviour
 {
     public void Jouer()
     {
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void Options()
     {
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync(2);
     }
 
     public void Quitter()
@@ -23,6 +23,6 @@ public class MenuController : MonoBehaviour
 
     public void Menu()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(0);
     }
 }

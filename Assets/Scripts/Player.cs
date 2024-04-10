@@ -143,7 +143,7 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             Debug.Log("points:"+_points);
             if(_points==6){
-                        SceneManager.LoadSceneAsync(4);
+                        SceneManager.LoadSceneAsync(3);
             }
         }
     }
@@ -152,7 +152,7 @@ public class Player : MonoBehaviour
         if(other.gameObject.CompareTag("Roche"))
         {
             Destroy(other.gameObject);
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadSceneAsync(4);
         }
     }
 }
